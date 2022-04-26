@@ -1,3 +1,7 @@
+.im {
+    z-index: 0;
+}
+
 .imtip {
     position: relative;
     bottom: 0;
