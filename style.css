@@ -7,3 +7,6 @@ div {
     bottom: 0;
     right: 0;
   }
+  .imtip img {
+      border-radius: 50%;
+  }
