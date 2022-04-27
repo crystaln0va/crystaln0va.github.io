@@ -55,4 +55,6 @@ span {
 /* Fig config */
 .leftfig, .rightfig {
   display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
 }
