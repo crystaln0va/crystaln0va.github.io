@@ -44,3 +44,8 @@ div {
 span {
   font-weight: normal;
 }
+
+/* Portrait floats to the right of text */
+.floatingrightimg {
+  float:right;
+}
