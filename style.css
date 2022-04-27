@@ -1,8 +1,21 @@
+/* Profile image container */
 div {
   text-align: center;
 }
 
+/* The image itself: give it space from header & make it circular */
 .imtip {
   margin-top:20px;
   border-radius: 50%;
+}
+
+/* Make the whole body black */
+.mybody {
+  background: black;
+}
+
+/* All core content will be purple */
+.purplecontent {
+  color: purple;
+  font-weight: bold;
 }
