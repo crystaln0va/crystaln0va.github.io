@@ -36,7 +36,7 @@ div {
 /* ABOUT ME STYLE */
 /* Headers variation */
 .redheaders {
-  color: rgb(59, 0, 98);
+  color: rgb(78, 0, 129);
   font-weight: bold;
 }
 
@@ -47,5 +47,7 @@ span {
 
 /* Portrait floats to the right of text */
 .floatingrightimg {
-  height: 500px;
+  height: 333px;
+  float: right;
+  margin-right: 15px;
 }
