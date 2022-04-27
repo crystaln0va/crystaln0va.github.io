@@ -47,7 +47,7 @@ span {
 
 /* Portrait floats to the right of text */
 .floatingrightimg {
-  height: 300px;
+  height: 310px;
   float: right;
   margin-right: 15px;
 }
