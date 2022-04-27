@@ -19,3 +19,8 @@ div {
   color: purple;
   font-weight: bold;
 }
+
+/* All headers will be this nice blue */
+.blueheaders {
+  color:#002bc6;
+}
