@@ -51,3 +51,8 @@ span {
   float: right;
   margin-right: 15px;
 }
+
+/* Fig config */
+.leftfig, .rightfig {
+  display: inline-block;
+}
