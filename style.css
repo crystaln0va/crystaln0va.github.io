@@ -10,6 +10,10 @@ div {
   border-radius: 50%;
 }
 
+.homebanner {
+  width: 100%;
+}
+
 /* Make the whole body black */
 .mybody {
   background: black;
