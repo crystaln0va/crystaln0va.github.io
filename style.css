@@ -34,3 +34,12 @@ div {
 
 
 /* ABOUT ME STYLE */
+/* Headers variation */
+.grayheaders {
+  color: gray;
+}
+
+/* Non-bold words in description */
+span {
+  font-weight: normal;
+}
