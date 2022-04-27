@@ -23,4 +23,5 @@ div {
 /* All headers will be this nice blue */
 .blueheaders {
   color:#002bc6;
+  font-size:large;
 }
