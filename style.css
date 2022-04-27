@@ -36,7 +36,8 @@ div {
 /* ABOUT ME STYLE */
 /* Headers variation */
 .redheaders {
-  color: rgb(52, 0, 0);
+  color: rgb(87, 0, 0);
+  font-weight: bold;
 }
 
 /* Non-bold words in description */
