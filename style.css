@@ -35,8 +35,8 @@ div {
 
 /* ABOUT ME STYLE */
 /* Headers variation */
-.grayheaders {
-  color: rgb(53, 53, 53);
+.redheaders {
+  color: rgb(52, 0, 0);
 }
 
 /* Non-bold words in description */
