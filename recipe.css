@@ -27,7 +27,7 @@
     font-family: "Georgia", "Garamond", serif;
 }
 
-.alllinks {
+a:any-link {
     color: #A4A400;
     font-size: 11pt;
     font-family: "Georgia", "Garamond", serif;
