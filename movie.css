@@ -8,11 +8,13 @@
     background-image: url('img/bannerbg.png');
     background-repeat: repeat-x;
     z-index: 0;
+    height: 50px;
 }
 
 .topcontainer {
     z-index: 1;
     text-align: center;
+    height: 50px;
 }
 
 .pagetext {
@@ -35,4 +37,10 @@
     border-radius: 20px;
     margin: auto;
     width: 800px;
+}
+
+.leftsection {
+    width: 550px;
+    background-image: url('img/rbg.png');
+    background-repeat: repeat-x;
 }
