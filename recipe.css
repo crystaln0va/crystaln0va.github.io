@@ -46,6 +46,9 @@ a:any-link {
     margin-left: 0px;
     text-align: right;
     line-height: 7px;
+    font-family: monospace;
+
+    width: 375px;
 }
 
 .hline, .cline {
