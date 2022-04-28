@@ -29,4 +29,10 @@
 
 .alllinks {
     color: #A4A400;
+    font-size: 11pt;
+    font-family: "Georgia", "Garamond", serif;
+}
+
+.usercomment {
+    font-style: italic;
 }
