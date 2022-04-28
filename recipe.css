@@ -46,10 +46,10 @@ a:any-link {
 .copyright {
     margin-left: 0px;
     text-align: right;
-    line-height: 7px;
+    line-height: 10px;
     font-family: "Courier New", monospace;
 
-    width: 375px;
+    width: 300px;
 }
 
 .hline, .cline {
