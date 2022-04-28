@@ -2,10 +2,18 @@
     background-image: url('img/background.png');
 }
 
-#bannerimage {
+#bannerback {
     /*background-position: center;*/
+    /**/
+    background-image: url('img/bannerbg.png');
     background-repeat: repeat-x;
-  }
+    z-index: 0;
+}
+
+.topcontainer {
+    z-index: 1;
+    text-align: center;
+}
 
 .pagetext {
     font-size: 8pt;
