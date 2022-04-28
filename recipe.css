@@ -44,5 +44,11 @@ a:any-link {
 .copyright {
     margin-left: 0px;
     text-align: right;
-    line-height: 3px;
+    line-height: 7px;
+}
+
+.hline, .cline {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
 }
