@@ -40,3 +40,7 @@ a:any-link {
     font-family: "Georgia", "Garamond", serif;
     background-color: #FFFFA8;
 }
+
+.copyright {
+    font-family: monospace;
+}
