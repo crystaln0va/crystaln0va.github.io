@@ -3,8 +3,8 @@
 }
 
 #bannerimage {
-    width: 100%;
-    background-position: center;
+    /*background-position: center;*/
+    background-repeat: repeat-x;
   }
 
 .pagetext {
