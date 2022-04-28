@@ -35,6 +35,10 @@ div {
   margin-top: 40px;
 }
 
+ul {
+  list-style-image: url('img/gem.png');
+}
+
 
 
 /* ABOUT ME STYLE */
