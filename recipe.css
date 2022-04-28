@@ -56,3 +56,7 @@ a:any-link {
     margin-left: 3px;
     margin-right: 3px;
 }
+
+ul {
+    list-style-image: url('img/pie_icon.gif');
+}
