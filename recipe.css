@@ -39,7 +39,8 @@ a:any-link {
     font-size: 11pt;
     font-family: "Georgia", "Garamond", serif;
     background-color: #FFFFA8;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .copyright {
