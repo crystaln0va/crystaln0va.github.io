@@ -42,5 +42,7 @@ a:any-link {
 }
 
 .copyright {
-    font-family: monospace;
+    margin-left: 0px;
+    text-align: right;
+    line-height: 3px;
 }
