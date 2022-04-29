@@ -69,30 +69,45 @@
 
 .column {
     display: inline-block;
-    width: 47%;
     background-color: #E8DC9B;
     border-style: solid;
     border-color: gray;
     border-width: 2px;
     border-radius: 10px;
     /* Margins */
-    margin-left: 11px;
+    /* padding */
+}
+
+#reviews {
+    width: 100%;
+}
+
+.reviewlogo {
+    float: left;
+
+    /* margin */
+}
+
+.reviewer {
+    
     margin-top: 11px;
-    margin-right: 0px;
 }
 
-.flex-container {
-    display: flex;
-            height:400px;
-            flex-flow: column wrap;
-            background-color: green;
+.columnpreviewer {
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+    margin-right: 1%;
+    margin-left: 1.5%;
+    margin-top: 11px;
+    margin-bottom: 11px;
 }
 
-.flex-container > div {
-    background-color: #fff;
-    width: 100px;
-            margin: 10px;
-            text-align: center;
-            line-height: 75px;
-            font-size: 30px;
+.reviewtext {
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 0px;
+    margin:0px;
+    vertical-align: top;
 }
