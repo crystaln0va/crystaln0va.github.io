@@ -57,6 +57,7 @@
 .lefttopcontainer, #thirtythree {
     display: inline-block;
     z-index: 1;
+    margin-top: 0px;
 }
 
 .topim {
