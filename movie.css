@@ -42,7 +42,7 @@
 /* Background of left section */
 #leftbannerback {
     width: 550px;
-    background-image: url('img/rbg.png');
+    /*background-image: url('img/rbg.png');*/
     background-repeat: repeat-x;
     z-index: 0;
 }
@@ -57,4 +57,12 @@
 .lefttopcontainer, #thirtythree {
     display: inline-block;
     z-index: 1;
+}
+
+.reviewcontainer {
+
+}
+
+.topim {
+    border-top-left-radius: 20px;
 }
