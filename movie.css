@@ -30,7 +30,7 @@
     text-shadow: 3px 3px #999999;
 }
 
-#mainbody {
+.mainbody {
     border-style:solid;
     border-color: gray;
     border-width: 4px;
@@ -42,9 +42,9 @@
 /* Background of left section */
 #leftbannerback {
     width: 550px;
-    /*background-image: url('img/rbg.png');*/
+    background-image: url('img/rbg.png');
     background-repeat: repeat-x;
-    z-index: 0;
+    border-top-left-radius: 20px;
 }
 
 #thirtythree {
@@ -52,14 +52,47 @@
     color: red;
     font-weight: bold;
     font-family: Verdana, Tahoma, sans-serif;
+    /*margin-bottom: 0px;*/
 }
 
 .lefttopcontainer, #thirtythree {
     display: inline-block;
-    z-index: 1;
     margin-top: 0px;
+    vertical-align: middle;
+    height: 83px;
 }
 
 .topim {
-    border-top-left-radius: 20px;
+    border-top-left-radius: 17px;
+    margin-bottom: 0px;
+}
+
+.column {
+    display: inline-block;
+    width: 47%;
+    background-color: #E8DC9B;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 10px;
+    /* Margins */
+    margin-left: 11px;
+    margin-top: 11px;
+    margin-right: 0px;
+}
+
+.flex-container {
+    display: flex;
+            height:400px;
+            flex-flow: column wrap;
+            background-color: green;
+}
+
+.flex-container > div {
+    background-color: #fff;
+    width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
 }
