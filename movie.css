@@ -63,7 +63,7 @@
 }
 
 .topim {
-    border-top-left-radius: 17px;
+    border-top-left-radius: 16px;
     margin-bottom: 0px;
 }
 
@@ -115,4 +115,8 @@
 #greenfooter {
     background-color: #A2B964;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
