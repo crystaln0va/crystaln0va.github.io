@@ -42,7 +42,6 @@
 /* Background of left section */
 #leftbannerback {
     width: 550px;
-    border-style: solid;
     background-image: url('img/rbg.png');
     background-repeat: repeat-x;
     z-index: 0;
@@ -52,6 +51,7 @@
     font-size: 48pt;
     color: red;
     font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .lefttopcontainer, #thirtythree {
