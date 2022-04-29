@@ -126,11 +126,18 @@
 
 #sidesection {
     background-color: #A2B964;
-    display: inline-block;
     width: 250px;
     vertical-align:top;
     margin: 0px;
     padding: 0px;
     border-top-right-radius: 16px;
     float: right;
+    
+}
+
+.dltext {
+    padding: 10pt;
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+    overflow: scroll;
 }
