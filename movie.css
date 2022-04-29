@@ -46,7 +46,8 @@
     background-image: url('img/rbg.png');
     background-repeat: repeat-x;
     border-top-left-radius: 20px;
-    margin-right: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #thirtythree {
@@ -126,9 +127,10 @@
 #sidesection {
     background-color: #A2B964;
     display: inline-block;
-    width: 245px;
+    width: 250px;
     vertical-align:top;
     margin: 0px;
     padding: 0px;
-    height: 1000px;
+    border-top-right-radius: 16px;
+    float: right;
 }
