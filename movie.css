@@ -41,10 +41,12 @@
 
 /* Background of left section */
 #leftbannerback {
+    display: inline-block;
     width: 550px;
     background-image: url('img/rbg.png');
     background-repeat: repeat-x;
     border-top-left-radius: 20px;
+    margin-right: 0px;
 }
 
 #thirtythree {
@@ -119,4 +121,14 @@
     padding-bottom: 5px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
+}
+
+#sidesection {
+    background-color: #A2B964;
+    display: inline-block;
+    width: 245px;
+    vertical-align:top;
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
 }
