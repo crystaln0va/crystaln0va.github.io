@@ -30,7 +30,6 @@ body {
     box-shadow: 1px 1px 1px #000;
 
 
-
 }
 
 .set-fieldset {
@@ -65,7 +64,7 @@ a {
 }
 
 .makered {
-    color: red;
+    color: #F5B7B1;
 }
 
 .signup {
