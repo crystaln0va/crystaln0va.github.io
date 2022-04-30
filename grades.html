@@ -9,8 +9,8 @@
 <body>
 
     <div class="main-form">
-        <p class="big-words header">Student's check grade form</p>
-        <p class="big-words">Student Information:</p>
+        <p class="big-words header">Check My Grade</p>
+        <p class="big-words">My Information:</p>
 
 
         <form method="get" action="http://mumstudents.org/params.php">
@@ -24,12 +24,8 @@
                     <label> Student ID: </label>
                     <input type="text" name="studentID">
                 </div>
-            </div>
-            <br>
-            <label class="big-words">Student Entry: </label> <br>
-            <br>
-            <div class="form-items">
-                <label for="entryyear">Year of Entry</label>
+
+                <label for="entryyear"><br>Year of Entry:</label>
 
                 <select id="entryyear" name="entryYear">
                     <option value="2015">2015</option>
@@ -44,7 +40,7 @@
 
                 </select>
                 <div>
-                    <p>Entry Date</p>
+                    <p>Month of Entry:</p>
                     <input type="radio" id="entry1" name="studentEntry" value="January">
                     <label for="entry1">January</label>
                 </div>
@@ -60,8 +56,8 @@
                     <input type="radio" id="entry4" name="studentEntry" value="December">
                     <label for="entry4">December</label>
                 </div>
-
             </div>
+            
 
             <p class="big-words">Assignments:</p>
 
@@ -82,15 +78,14 @@
 
 
                 </select>
-                <p><b>Confirm:</b> I am not lying and really am only looking up my own grade.</p>
-                <label for="confirm">If Yes, please check this box</label><input id="confirm" class="checkbox"
+                <label for="confirm"><br><b>Confirm:</b> I am not lying and really am only looking up my own grade.</label><input id="confirm" class="checkbox"
                     type="checkbox" name="confirming" value="yes">
             </div>
             <br>
             <br>
 
 
-            <input class="button-retrieve" type="submit" value="Get Grade!">
+            <input class="button-retrieve" type="submit" value="See My Grade">
 
 
         </form>
