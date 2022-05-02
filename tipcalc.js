@@ -16,7 +16,7 @@ function calcTip(){
         alert("Please enter a valid value!");
         tipElem.value='';
         subtotalElem.value='';
-	    totalElem.innerHTML = '$';
+	    /*totalElem.innerHTML = '$';*/
         return;
     }
    
