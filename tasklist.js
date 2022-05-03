@@ -1,27 +1,33 @@
 window.onload = onLoadEvent;
 
 function onLoadEvent() {
+    
     /** Load buttons to be ready for action */
-    var addtaskbutton = document.getElementById('addtaskbutton');
-    var clearbutton = document.getElementById('clearbutton');
+    var save_value = document.getElementById('save_value');
+    var delete_data = document.getElementById('delete_data');
 
-    /** Assign functions (right side) to actions (left side) */
-    addtaskbutton.onclick = submitListItem;
-}
+    var take_input = document.getElementById('take_input');
+    var save_value = document.getElementById('save_value');
+    var delete_data = document.getElementById('delete_data');
+    var localstorage_value = document.getElementById('localstorage_value');
+
+    /** Default display */
+    localstorage_value.textContent = localStorage.getItem("name");
+    if(localStorage.getItem("name") === null) localstorage_value.textContent = "";
 
 
-function submitListItem() {
-    var userinput = document.getElementById('userinput');
-    var output1 = document.getElementById('output1');
-    var counter = 0;
-
-    localStorage.setItem(counter.toString(), userinput.value);
-    counter++;
-
-    var outputString = "";
-    for (let i = 0 ; i < localStorage.length ; i++) {
-        outputString = outputString + "\n" + localStorage.getItem(i.toString());
+    save_value.onclick = function() {
+        var old = localStorage.getItem("name");
+        if(old === null) old = "";
+        localStorage.setItem("name", old + "\n" + take_input.value);
+        localstorage_value.textContent = localStorage.getItem("name");
+        take_input.value = "";
     }
 
-    output1.innerHTML = outputString;
+    delete_data.onclick = function () {
+        localStorage.clear();
+        localstorage_value.textContent = "";
+    }
 }
+
+
