@@ -7,6 +7,7 @@
         <!--Links-->
         <link rel="shortcut icon" href="img/57_50.png" type="image/png">
         <link rel="stylesheet" href="tasklist.css">
+        <script src="tasklist.js" type="text/javascript"></script>
         
         <!--Keyword metadata-->
         <meta name="keywords" content="task,list,task list" />
@@ -27,13 +28,13 @@
                     <!-- Container for 1st label & input box -->
                     <div>
                         <label class="myheader1">Task<br></label>
-                        <input id="tbuser" class="bar1" type="text" name="taskInput">
+                        <input id="userinput" class="bar1" type="text">
                     </div>
                 
                     <!-- My fancy buttons -->
-                    <input id="toP"class="graySubmitButtons" type="submit" value="Add Task">
+                    <input id="addtaskbutton"class="graySubmitButtons" type="submit" value="Add Task">
                     <br>
-                    <input class="graySubmitButtons" type="reset" value="Clear Tasks">
+                    <input id="clearbutton" class="graySubmitButtons" type="reset" value="Clear Tasks">
                 </div>
 
                 <!-- Task List display-->
@@ -42,21 +43,6 @@
                     <p class="outputP" id="output1">
                     </p>
                 </div>
-
-                <script>
-                    const txt1 = document.getElementById('tbuser');
-                    const btn1 = document.getElementById('toP');
-                    const out1 = document.getElementById('output1');
-
-                    
-
-                    function fun1() {
-                        
-                    };
-
-                    btn1.addEventListener('click',fun1);
-
-                </script>
 
 
             </div>
