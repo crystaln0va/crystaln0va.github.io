@@ -19,7 +19,7 @@ function onLoadEvent() {
     save_value.onclick = function() {
         var old = localStorage.getItem("name");
         if(old === null) old = "";
-        localStorage.setItem("name", old + "\n" + take_input.value);
+        localStorage.setItem("name", old + take_input.value + "\n");
         localstorage_value.textContent = localStorage.getItem("name");
         take_input.value = "";
     }
