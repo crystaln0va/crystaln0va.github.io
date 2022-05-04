@@ -23,7 +23,7 @@ div {
 .purplecontent {
   color: purple;
   font-weight: bold;
-  font-family:fantasy;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /* All headers will be this nice blue */
