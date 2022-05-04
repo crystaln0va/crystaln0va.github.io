@@ -22,7 +22,6 @@ div {
 /* All core content will be purple */
 .purplecontent {
   color: purple;
-  font-weight: bold;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -32,6 +31,7 @@ div {
   text-align: center;
   font-size: 35pt;
   font-family:cursive;
+  font-weight: bolder;
 }
 
 /* Give the footer link some space from the last page element */
