@@ -8,6 +8,60 @@
     </head>
 
     <body>
-        <h2></h2>
+        <div>
+        <h3>1. What is the difference between the following 2 statements?</h3>
+        <p>setTimeout(booyah, 2000);<br>
+        setTimeout(booyah(), 2000);</p>
+        <p class="response">
+            We need <em>booyah</em> to be a callback function, or a function who does not execute until a specific desired time.
+            In this case it would be after 2000 milliseconds, or 2 seconds. If we place the parentheses after <em>booyah</em>
+            as <em>booyah()</em>, the function will be called <em>immediately</em>, and this will defeat the purpose
+            of setting the timer.
+        </p>
+
+
+        <h3>2. What do the following 2 alerts display (answer without running the code)?</h3>
+        <p>var myfunc = function(a, x) {<br>
+            return a * x;<br>
+           };<br>
+           var x = myfunc(2, 3);<br>
+           var y = myfunc;<br>
+           alert(x);<br>
+           alert(y(2,3));</p>
+           <p class="response">
+               In the first case, this alert will simply display the result of calling the function <em>myfunc</em>.
+                Two arguments are provided, and they will pass through the parameters <em>a</em> and <em>x</em>,
+                respectively. They will be multiplied together, and the outcome will be <b style="font-size: 1.5em;">6</b>.<br><br>
+                In the second case, <em>y</em> stores the function <em>myfunc</em>. When the function is called,
+                two arguments are passed, <em>2</em> and <em>3</em>, respectively. Ultimately, this is only the same
+                action as before, and the arguments will be accepted and multiplied together. Thus, the outcome in this
+                case is also <b style="font-size: 1.5em;">6</b>.
+            </p>
+
+
+        <h3>3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that
+            says “BOOYAH!”</h3>
+            <p>setTimeout(booyah1, 2000);<br>
+                setTimeout(booyah2(), 2000);</p>
+                <p class="response">
+                    function booyah1() = {<br>
+                        &#160 &#160 &#160 &#160 alert("BOOYAH!");<br>
+                    }<br>
+                    function booyah2() = {<br>
+                        &#160 &#160 &#160 &#160 return function() {<br>
+                            &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 alert("BOOYAH!");<br>
+                            &#160 &#160 &#160 &#160 }; <br>
+                    }<br>
+                </p>
+
+
+        <h3>4. What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons
+            for using it)?</h3>
+            <p class="response">Unobtrusive JavaScript is the organization of JavaScript code into a separate script file.
+                It is used to keep code clean, organized, accessible, and simple. It puts all of the JavaScript into
+                one place, so that modifications are easy to implement, and the location of elements is easy and clear.
+            </p>
+        </div>
+
     </body>
 </html>
