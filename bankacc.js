@@ -1,30 +1,29 @@
 window.onload = onLoadEvent;
 
+class Account {
+    #accountName;
+    #balance;
+    static accountInfoList = [];
 
-
+    constructor() {
+        
+    }
+    setAccountName(accN) {
+        this.#accountName = accN;
+    }
+    setBalance(bal) {
+        this.#balance = bal;
+    }
+    getAccountName() {
+        return this.#accountName;
+    }
+    getBalance() {
+        return this.#balance;
+    }
+}
 
 function onLoadEvent() {
-    class Account {
-        #accountName;
-        #balance;
-        static accountInfoList = [];
     
-        constructor() {
-            
-        }
-        setAccountName(accN) {
-            this.#accountName = accN;
-        }
-        setBalance(bal) {
-            this.#balance = bal;
-        }
-        getAccountName() {
-            return this.#accountName;
-        }
-        getBalance() {
-            return this.#balance;
-        }
-    }
 
     var createacc_button = document.getElementById('createacc_button');
     var take_acc_input = document.getElementById('take_acc_input');
