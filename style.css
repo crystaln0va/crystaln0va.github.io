@@ -23,16 +23,24 @@ div {
 .purplecontent {
   color: purple;
   font-weight: bold;
+  font-family:fantasy;
 }
 
 /* All headers will be this nice blue */
 .blueheaders {
   color:#002bc6;
+  text-align: center;
+  font-size: 35pt;
+  font-family:cursive;
 }
 
 /* Give the footer link some space from the last page element */
 .footerlink {
   margin-top: 40px;
+  right:0px;
+  bottom:0px;
+  position: fixed;
+  opacity: 5%;
 }
 
 /* ABOUT ME STYLE */
@@ -60,4 +68,24 @@ span {
   margin-left: 3px;
   margin-right: 3px;
   margin-top: 8px;
+}
+
+a {
+  color:purple;
+  text-decoration: none;
+}
+
+li::marker {
+  content: "\2605";
+  margin: 0 2px;
+}
+
+.assn_div {
+  margin:auto;
+  border-color:darkorange;
+  border-width: 6px;
+  border-style:dashed;
+  width: 600px;
+  text-align: left;
+  padding-left: 20px;
 }
