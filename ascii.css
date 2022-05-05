@@ -1,0 +1,50 @@
+body {
+    background-color: #CCCCFF;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 32pt;
+}
+
+.white_textarea {
+    width: 90%;
+    margin: auto;
+}
+
+textarea {
+    height:400px;
+    width: 100%;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 12pt;
+}
+
+fieldset {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width:fit-content;
+    display: inline;
+    vertical-align: top;
+}
+
+legend {
+    width:fit-content;
+}
+
+.fieldset_div {
+    text-align: center;
+}
+
+.im_div {
+    width:90px;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}
