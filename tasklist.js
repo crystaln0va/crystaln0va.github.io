@@ -28,6 +28,28 @@ function onLoadEvent() {
         localStorage.clear();
         localstorage_value.textContent = "";
     }
+
+    /** */
+    var btns = document.getElementsByClassName('btn');
+
+    for (let i = 0 ; i<btns.length;i++) {
+        btns[i].toggleAttribute;
+    }
+
+    /*
+    btns[0].onclick = function() {
+        btns[0].parentElement.remove();
+    }
+    btns[1].onclick = function() {
+        btns[1].parentElement.remove();
+    
+    
+    for
+    btns[i].onclick = function() {
+            btns[i].parentElement.remove();
+        }
+    */
+    
 }
 
 
