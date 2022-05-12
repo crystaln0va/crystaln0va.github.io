@@ -48,3 +48,9 @@ legend {
     bottom:0px;
     right:0px;
 }
+
+.bodytext {
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}

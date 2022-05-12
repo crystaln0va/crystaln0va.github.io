@@ -27,13 +27,13 @@
         <div class="fieldset_div">
             <fieldset>
                 <legend>Play Controls:</legend>
-                <button id="start"> Start </button>
-                <button id="stop">Stop</button>
+                <button id="start" class="bodytext">Start</button>
+                <button id="stop" class="bodytext">Stop</button>
             </fieldset>
 
             <fieldset>
                 <legend>Animation:</legend>
-                <select id="animation">
+                <select id="animation" class="bodytext">
                     <option value="Blank">Blank</option>
                     <option value="Exercise">Exercise</option>
                     <option value="Juggler">Juggler</option>
@@ -45,12 +45,19 @@
 
             <fieldset>
                 <legend>Size:</legend>
-                If I were to change the size...
+                <select id="fontsize" class="bodytext">
+                    <option value="tiny">Tiny</option>
+                    <option value="small">Small</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="large">Large</option>
+                    <option value="extralarge">Extra Large</option>
+                    <option value="xxl">XXL</option>
+                </select>
             </fieldset>
 
             <fieldset>
                 <legend>Speed:</legend>
-                If I had super speed...
+                <input type="checkbox" id="speed" name="Turbo"/>Turbo
             </fieldset>
         </div>
 
