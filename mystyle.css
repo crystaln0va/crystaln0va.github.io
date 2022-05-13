@@ -1,0 +1,17 @@
+#maindiv {
+    width: 20%;
+    font-size: 20px;
+    height:fit-content;
+}
+
+
+
+button {
+    color: rgb(0, 255, 213);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
