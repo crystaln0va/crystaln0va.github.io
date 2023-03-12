@@ -12,6 +12,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 a {
 color:purple;
 text-decoration: none;
+font-size: large;
 }
 
 li::marker {

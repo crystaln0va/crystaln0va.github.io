@@ -73,6 +73,7 @@ span {
 a {
   color:purple;
   text-decoration: none;
+  font-size: large;
 }
 
 li::marker {
