@@ -25,3 +25,8 @@ p {
     margin:auto;
     width: 800px;
 }
+
+a {
+color:orange;
+font-size: 20px;
+}
